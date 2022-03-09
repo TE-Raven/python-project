@@ -9,7 +9,14 @@ For example, my dataset is in the bbc folder, I need to copy the path of the bbc
 root=r"/content/drive/MyDrive/news_classifacation/bbc"
 
 The datasets used by this program are txt files, which are placed in five folders. The datasets have no labels. If you need to replace the datasets, please ensure that the format and storage method are the same as the datasets used by this program.
-
 Then run each code block in turn to complete the processing and classification of the dataset
 
 
+If you want to run the program in the terminal, then you need to modify the path to the absolute path of your dataset decompression folder
+
+For example, my dataset's absolute path is D:\python project\machine_learning_coursework\bbc\dataset,then i need to copy it and replace the path in the quotation mark
+root=r"/content/drive/MyDrive/news_classifacation/bbc"
+
+Also, you don't need the following library references
+from google.colab import drive
+drive.mount('/content/drive')
